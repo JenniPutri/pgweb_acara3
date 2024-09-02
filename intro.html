@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+  <script>
+    // variable
+    var a = 10;
+    var b = "20";
+    var c = a + b; // jumlah
+    var d = a - b; // kurang
+    var e = a * b; // kali
+    var f = a / b; // bagi
+    var g = a % b; // modulus
+    var h = a ^ b; // pangkat
+
+    // data type array
+    var karakter = ['upin', 'ipen', 'mail', 'jarwo', 'susahnti']
+
+    // data type object
+    var identitas = {
+        nama: 'upin' ,
+        umur: 5,
+        alamat: 'kampung durian runtuh'
+    };
+
+    var pesan_bahaya = "Awas bahaya!";
+
+        // function
+        function hitung(a, b){
+            alert("hasil = " + (a + b));
+        }
+
+        // function call
+        hitung(3,4);
+
+        function profil(nama, umur){
+            alert("Nama: " + nama + ", Umur: " + umur + " tahun");
+        }
+
+        // function call
+        //  profil("Jennay", 19);
+
+        // console.log(DataIdentitas);
+
+        // conditional
+        var nilai = 60;
+        if (nilai >= 80) {
+            alert("YEY, nilai anda A");
+            // nilai 70 - 79
+        } else if (nilai >= 70 || nilai < 80) {
+            alert("WOW, nilai anda B!");
+        } else if (nilai >= 60 || nilai < 70) {
+            alert("YAH, nilai anda C!");
+        } else {
+            alert("OH NO, nilai anda D!");
+        }
+           
+  </script>  
+</body>
+</html>
